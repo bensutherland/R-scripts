@@ -1,2 +1,2 @@
-# R-scripts
-Useful R code for various projects
+# scripts
+Useful code for various projects
