@@ -1,11 +1,15 @@
 #!/bin/bash
-# Set environment variable 
-INPUT="/bensuth2/07_platanus/50Go_kmer42/safo_50go__contig.fa"
-LENGTH="500"
+# Find the number of records and total length of a fasta file
+
+## USAGE ##
+# fasta_characterize.sh <your_file.fasta> <min_length>
+
+# User Input 
+INPUT="$1"
+LENGTH="$2"
 
 # Do not change
 TRIMMED_INPUT="$INPUT"_minlength500.fa
-
 
 # Run summarization for the full file
 echo "Working on full file "$INPUT""
